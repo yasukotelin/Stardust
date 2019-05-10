@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stardust", "Stardust\Stardust.csproj", "{641F41D4-2BCB-4463-B04C-A272BCB536AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{641F41D4-2BCB-4463-B04C-A272BCB536AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641F41D4-2BCB-4463-B04C-A272BCB536AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641F41D4-2BCB-4463-B04C-A272BCB536AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641F41D4-2BCB-4463-B04C-A272BCB536AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AF714CF-A6C2-4B9A-822B-955705164F9C}
+	EndGlobalSection
+EndGlobal
