@@ -6,8 +6,21 @@
         xmlns:local="clr-namespace:Stardust"
         mc:Ignorable="d"
         Title="Stardust" 
-        Height="300" 
-        Width="600">
+        Height="140" 
+        MinHeight="100"
+        Width="600"
+        MinWidth="600">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="70"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Column="0" HorizontalAlignment="Right" Content="Path" Height="30" />
+        <TextBox Grid.Column="1" x:Name="PathTextBox" Height="30" VerticalContentAlignment="Center" Width="Auto" Margin="5,0,5,0"/>
+        <Button Grid.Column="2" x:Name="FilePickerButton" Content="File" Height="30" Width="60" Margin="5,0,5,0" Click="OnClickFilePickerButton"/>
+        <Button Grid.Column="3" x:Name="RegisterButton" Content="Register" Height="30" Width="60" Margin="5,0,5,0" Click="OnClickRegisterButton"/>
     </Grid>
 </Window>
