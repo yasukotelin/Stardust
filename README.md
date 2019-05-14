@@ -1,6 +1,8 @@
 # Stardust
 
-<img src="./resouces/StardustAppIcon.png" width="200px">
+<p align="center">
+    <img src="./resouces/StardustAppIcon.png" width="200px">
+</p>
 
 Stardust manages applications added to Start Menu of Windows10.
 
